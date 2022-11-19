@@ -1,6 +1,6 @@
 using System;
 
-namespace TCQ_Week1_Assignment.Class
+namespace TelCo.ColorCoder
 {
     public partial class TelecomColor
     {
