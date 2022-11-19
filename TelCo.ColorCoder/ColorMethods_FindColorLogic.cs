@@ -14,6 +14,11 @@ namespace TelCo.ColorCoder
                 throw new ArgumentOutOfRangeException(
                     string.Format("Argument PairNumber:{0} is outside the allowed range", pairNumber));
             }
+             pair = Get_ColorfromColorLogic(pairNumber,minorSize);
+            return pair;
+        }
+          public static ColorPair Get_ColorfromColorLogic(int pairNumber, int minorSize)
+        {
 
             // Find index of major and minor color from pair number
             int zeroBasedPairNumber = pairNumber - 1;
