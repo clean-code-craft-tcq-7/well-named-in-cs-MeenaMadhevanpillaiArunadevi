@@ -6,7 +6,7 @@ namespace TelCo.ColorCoder
     {
 
        
-        public static void FindColorManual()
+        public static void GenerateColorCodeManual()
         {
             // The function supports only 1 based index. Pair numbers valid are from 1 to 25
             int minorSize = colorMapMinor.Length;
