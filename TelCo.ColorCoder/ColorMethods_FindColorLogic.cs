@@ -4,8 +4,6 @@ namespace TelCo.ColorCoder
 {
     public partial class TelecomColor
     {
-
-       
         public static ColorPair FindColorFromPairNumber(int pairNumber)
         {
             // The function supports only 1 based index. Pair numbers valid are from 1 to 25
