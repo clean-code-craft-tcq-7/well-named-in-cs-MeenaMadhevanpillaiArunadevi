@@ -1,5 +1,4 @@
 using System;
-
 namespace TelCo.ColorCoder
 {
     public partial class TelecomColor
